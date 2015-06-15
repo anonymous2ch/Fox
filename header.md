@@ -24,6 +24,9 @@
 **A:** `about:config -> browser.search.showOneOffButtons -> false` <br>
 Применяется только после перезапуска Firefox, в отличие от большинства настроек about:config.
 
+* **Q:** Как вернуть старый вид диалога опций браузера вместо about:preferences? <br>
+**A:** `about:config -> browser.preferences.inContent -> false` <br>
+
 * **Q:** Как копировать ссылки c кириллическим текстом в исходном виде, не закодированном percent-encoding (%D0%9B%D0%B8%D1%81 -> Лис)? <br>
 **A:** `about:config -> network.standard-url.escape-utf8 -> false`
 
